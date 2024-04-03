@@ -1,0 +1,73 @@
+% feature encode
+* RY 0 0
+* RY 1 1
+* RY 2 2
+* RY 3 3
+$ dumpStat
+
+# RX 0 parameter2
+# RX 1 parameter3
+# RX 2 parameter3
+# RX 3 parameter3
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+# RY 0 parameter0
+# RY 1 parameter1
+# RY 2 parameter1
+# RY 3 parameter0
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+$ dumpStat
+
+% network layer1
+# RX 0 parameter2
+# RX 1 parameter3
+# RX 2 parameter3
+# RX 3 parameter3
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+# RY 0 parameter0
+# RY 1 parameter1
+# RY 2 parameter1
+# RY 3 parameter0
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+$ dumpStat
+
+# RX 0 parameter2
+# RX 1 parameter3
+# RX 2 parameter3
+# RX 3 parameter3
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+# RY 0 parameter0
+# RY 1 parameter1
+# RY 2 parameter1
+# RY 3 parameter0
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+$ dumpStat
+
+# RX 0 parameter2
+# RX 1 parameter3
+# RX 2 parameter3
+# RX 3 parameter3
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+# RY 0 parameter0
+# RY 1 parameter1
+# RY 2 parameter1
+# RY 3 parameter0
+& CNOT 0 1
+& CNOT 2 3
+& CNOT 1 2
+$ dumpStat
+
+& MZ 2 3

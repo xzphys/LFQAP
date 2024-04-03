@@ -1,0 +1,21 @@
+% feature encode
+* RX 0 0
+* RX 1 1
+
+% network layer0
+# RY 0 parameter0
+# RY 1 parameter1
+& CNOT 0 1
+# RX 0 parameter2
+# RX 1 parameter3
+& CNOT 0 1
+
+% network layer1
+# RY 0 parameter0
+# RY 1 parameter1
+& CNOT 0 1
+# RX 0 parameter2
+# RX 1 parameter3
+& CNOT 0 1
+
+& MZ 0 1
