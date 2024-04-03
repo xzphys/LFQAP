@@ -1,4 +1,4 @@
-direction for use:
+Direction for use:
 (1) initialization
 1. Set the number of iterations. In platform.cpp file, it is controlled by the epoch parameter.
 2. Setting up the optimizer. The default is ADAM, gradient descent is also integrated into the platform, Setting through lines 354-357 of platform.cpp file.
@@ -20,3 +20,7 @@ moon.data is the sample file, each sample occupies a row, sample features are se
 
 Announcements:
 This project is currently only available for two or three classification, more categories need to be modified in the file platform.cpp.
+
+The other github projects integrated in this project:
+1. For full amplitude simulator, our platform integrated Quantum-Computing-Library, but do some refactor, trimmed some unused functionality. The github website of Quantum-Computing-Library is https://github.com/AbeerVaishnav13/Quantum-Computing-Library.
+2. For tensor network simulator, our platform integrated qtorch, the source code in folder. The github website of qtorch is https://github.com/aspuru-guzik-group/qtorch.
