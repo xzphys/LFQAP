@@ -19,7 +19,8 @@ moon.data is the sample file, each sample occupies a row, sample features are se
 3. Other self-defined functionality. We can also easily calculate other parameters based on quantum states, such as entropy and mutual information.
 
 Announcements:
-This project is currently only available for two or three classification, more categories need to be modified in the file platform.cpp.
+1.This project is currently only available for two or three classification, more categories need to be modified in the file platform.cpp.
+2.calculategk.cpp is the interface to QuantumCTek (https://quantumctek-cloud.com/).
 
 The other github projects integrated in this project:
 1. For full amplitude simulator, our platform integrated Quantum-Computing-Library, but do some refactor, trimmed some unused functionality. The github website of Quantum-Computing-Library is https://github.com/AbeerVaishnav13/Quantum-Computing-Library.
